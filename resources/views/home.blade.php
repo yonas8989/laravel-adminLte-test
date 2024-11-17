@@ -8,9 +8,7 @@
 
 @section('content')
     <p>Welcome to this beautiful admin panel.</p>
-    <a class="btn btn-link" href="{{ route('password.request') }}">
-        {{ __('Forgot Your Password?') }}
-    </a>
+
 @stop
 
 @section('css')
