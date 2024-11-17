@@ -23,6 +23,7 @@
                 </a>
             </div>
         </div>
+        
 
         <!-- Another example card -->
         <div class="col-lg-3 col-6">
@@ -50,6 +51,7 @@
             <canvas id="myChart" width="400" height="100"></canvas>
         </div>
     </div>
+    
 @endsection
 
 @section('js')
@@ -78,5 +80,7 @@
             }
         });
     </script>
+
+
 @endsection
 
